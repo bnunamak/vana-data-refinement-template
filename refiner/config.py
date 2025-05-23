@@ -56,3 +56,4 @@ class Settings(BaseSettings):
         case_sensitive = True
 
 settings = Settings() 
+settings.SCHEMA_NAME = "German real estate data"
